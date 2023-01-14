@@ -1,2 +1,2 @@
 # InVendor
-Store management Integrated System Project 
+A complete store management project 
