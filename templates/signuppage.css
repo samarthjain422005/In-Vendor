@@ -1,0 +1,405 @@
+.signuppage-container {
+  min-height: 100vh;
+}
+.signuppage-signuppage {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.logo-icon {
+  position: absolute;
+  top: 40px;
+  left: 60px;
+  width: 80px;
+  height: 80px;
+  z-index: 200;
+}
+.signuppage-input-fields {
+  top: 150px;
+  left: 0px;
+  right: 0px;
+  width: 600px;
+  height: 700px;
+  margin: auto;
+  display: flex;
+  padding: 0;
+  z-index: 100;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+  z-index: 200;
+}
+.signuppage-input-methods{
+  top: 150px;
+  left: 0px;
+  right: 0px;
+  width: 600px;
+  height: 700px;
+  margin: auto;
+  display: flex;
+  padding: 0;
+  z-index: 100;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.signuppage-user-name-field-input {
+  top: 0px;
+  left: 300px;
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+}
+.signuppage-store-name-field-input {
+  top: 70px;
+  left: 300px;
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+}
+.signuppage-email-i-d-field-input {
+  top: 140px;
+  left: 300px;
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+}
+.signuppage-password-fieldinput {
+  top: 210px;
+  left: 300px;
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+}
+.signuppage-confirm-password-fieldinput {
+  top: 280px;
+  left: 300px;
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+}
+.signuppage-contact-no-fieldinput {
+  top: 350px;
+  left: 300px;
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+}
+.signuppage-address-fieldinput {
+  top: 420px;
+  left: 300px;
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+}
+.signuppage-city-fieldinput {
+  top: 490px;
+  left: 300px;
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+}
+.signuppage-country-field-input {
+  top: 560px;
+  left: 300px;
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+}
+.signuppage-store-type-field-input {
+  top: 630px;
+  left: 300px;
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+}
+.signuppage-text {
+  top: 5px;
+  left: 0px;
+  color: rgb(25, 25, 25);
+  width: 200px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Cormorant;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-text01 {
+  top: 75px;
+  color: rgb(25, 25, 25);
+  width: 200px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Cormorant;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-text02 {
+  top: 145px;
+  left: 0px;
+  color: rgb(25, 25, 25);
+  width: 200px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Cormorant;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-text03 {
+  top: 215px;
+  left: 0px;
+  color: rgb(25, 25, 25);
+  width: 200px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Cormorant;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-text04 {
+  top: 285px;
+  left: -50px;
+  color: rgb(25, 25, 25);
+  width: 300px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Cormorant;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-text05 {
+  top: 355px;
+  left: -50px;
+  color: rgb(25, 25, 25);
+  width: 300px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Cormorant;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-text08 {
+  top: 425px;
+  left: 0px;
+  color: rgb(25, 25, 25);
+  width: 200px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Cormorant;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-text09 {
+  top: 495px;
+  left: 0px;
+  color: rgb(25, 25, 25);
+  width: 200px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Cormorant;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-text10 {
+  top: 565px;
+  left: 0px;
+  color: rgb(25, 25, 25);
+  width: 200px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Cormorant;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-text11 {
+  top: 635px;
+  left: -50px;
+  color: rgb(25, 25, 25);
+  width: 300px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Cormorant;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.signuppage-textinput {
+  top: 0px;
+  left: 300px;
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  border-width: 0px;
+  background-color: transparent;
+}
+.signuppage-textinput1 {
+  top: 70px;
+  left: 300px;
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  border-width: 0px;
+  background-color: transparent;
+}
+.signuppage-textinput2 {
+  left: 300px;
+  width: 300px;
+  bottom: 0px;
+  height: 60px;
+  position: absolute;
+  border-width: 0px;
+  background-color: transparent;
+}
+.signuppage-button {
+  top: 900px;
+  left: 0px;
+  right: 0px;
+  width: 200px;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-radius: 25px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.signuppage-button:hover {
+  animation: 1s ease 0s infinite normal none shadow-inset-center;
+}
+.signuppage-link {
+  top: 0px;
+  left: 0px;
+  color: rgb(255, 255, 255);
+  width: 200px;
+  height: 60px;
+  z-index: 100;
+  position: absolute;
+  font-size: 32px;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Cormorant;
+  border-width: 0px;
+  border-radius: 25px;
+  text-decoration: none;
+  background-color: rgb(50, 125, 250);
+}
+.signuppage-link:hover {
+  border-width: 2px;
+}
+.signuppage-background {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 1024px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.signuppage-background-image {
+  top: 0px;
+  left: 3px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-color: transparent;
+}

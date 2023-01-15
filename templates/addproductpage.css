@@ -1,0 +1,325 @@
+.addproduct-container {
+  min-height: 100vh;
+}
+.addproduct-addproduct {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.addproduct-input-fields {
+  top: 150px;
+  left: 0px;
+  right: 0px;
+  width: 600px;
+  height: 700px;
+  margin: auto;
+  display: flex;
+  padding: 0;
+  z-index: 100;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+  z-index: 200;
+}
+.addproduct-input-methods {
+  top: 150px;
+  left: 0px;
+  right: 0px;
+  width: 600px;
+  height: 700px;
+  margin: auto;
+  display: flex;
+  padding: 0;
+  z-index: 100;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.addproduct-product-i-d-field-input {
+  top: 70px;
+  left: 300px;
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+}
+.addproduct-product-name-field-input {
+  top: 210px;
+  left: 300px;
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+}
+.addproduct-price-per-unit-field-input {
+  top: 350px;
+  left: 300px;
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+}
+.addproduct-tax-rate-input {
+  top: 490px;
+  left: 300px;
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+}
+.addproduct-stock-field-input {
+  top: 630px;
+  left: 300px;
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+}
+.addproduct-text {
+  top: 70px;
+  color: rgb(25, 25, 25);
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Cormorant;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addproduct-text1 {
+  top: 210px;
+  left: -50px;
+  color: rgb(25, 25, 25);
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Cormorant;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addproduct-text2 {
+  top: 350px;
+  left: -50px;
+  color: rgb(25, 25, 25);
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Cormorant;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addproduct-text3 {
+  top: 490px;
+  left: 0px;
+  color: rgb(25, 25, 25);
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Cormorant;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addproduct-text4 {
+  top: 630px;
+  left: -50px;
+  color: rgb(25, 25, 25);
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Cormorant;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.addproduct-button {
+  top: 900px;
+  left: 0px;
+  right: 0px;
+  width: 200px;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-radius: 25px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.addproduct-button:hover {
+  animation: 1s ease 0s infinite normal none shadow-inset-center;
+}
+.addproduct-button:active {
+  animation: 1s ease 0s infinite normal none shadow-inset-center;
+}
+.addproduct-link {
+  top: 0px;
+  left: -25px;
+  color: rgb(255, 255, 255);
+  width: 250px;
+  height: 60px;
+  z-index: 100;
+  position: absolute;
+  font-size: 32px;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Cormorant;
+  border-width: 0px;
+  border-radius: 25px;
+  text-decoration: none;
+  background-color: rgb(50, 125, 250);
+}
+.addproduct-link:hover {
+  border-width: 2px;
+}
+.addproduct-text5 {
+  top: 12px;
+  left: 0px;
+  color: rgb(255, 255, 255);
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  z-index: 100;
+  position: absolute;
+}
+.addproduct-background {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: flex-start;
+}
+.addproduct-background-image {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  transform: rotate(180deg);
+  border-color: transparent;
+}
+.addproduct-header {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.logo-icon {
+  position: absolute;
+  top: 40px;
+  left: 60px;
+  width: 80px;
+  height: 80px;
+  z-index: 200;
+}
+.addproduct-link1 {
+  top: 60px;
+  left: 160px;
+  position: absolute;
+  font-size: 40px;
+  align-self: center;
+  font-family: Cormorant;
+}
+.addproduct-link2 {
+  top: 60px;
+  right: 50px;
+  position: absolute;
+  font-size: 40px;
+  align-self: center;
+  font-family: Cormorant;
+}
+.addproduct-link3 {
+  top: 60px;
+  right: 200px;
+  position: absolute;
+  font-size: 40px;
+  align-self: center;
+  font-family: Cormorant;
+}
+.addproduct-link4 {
+  top: 60px;
+  right: 400px;
+  position: absolute;
+  font-size: 40px;
+  align-self: center;
+  font-family: Cormorant;
+}
