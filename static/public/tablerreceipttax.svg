@@ -1,0 +1,20 @@
+<svg width="160" height="149" viewBox="0 0 160 149" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_i_78_11)">
+<path d="M60.0232 86.7143L99.9768 49.7453" stroke="black" stroke-width="7.95031" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M63.3527 55.9068C65.1915 55.9068 66.6821 54.5275 66.6821 52.8261C66.6821 51.1246 65.1915 49.7453 63.3527 49.7453C61.5139 49.7453 60.0232 51.1246 60.0232 52.8261C60.0232 54.5275 61.5139 55.9068 63.3527 55.9068Z" fill="black" stroke="black" stroke-width="7.95031" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M96.6473 86.7143C98.4861 86.7143 99.9768 85.335 99.9768 83.6335C99.9768 81.9321 98.4861 80.5528 96.6473 80.5528C94.8085 80.5528 93.3178 81.9321 93.3178 83.6335C93.3178 85.335 94.8085 86.7143 96.6473 86.7143Z" fill="black" stroke="black" stroke-width="7.95031" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M33.3875 129.845V31.2609C33.3875 27.9926 34.7906 24.8582 37.2882 22.5472C39.7858 20.2362 43.1732 18.9379 46.7054 18.9379H113.295C116.827 18.9379 120.214 20.2362 122.712 22.5472C125.209 24.8582 126.612 27.9926 126.612 31.2609V129.845L106.636 117.522L93.3178 129.845L80 117.522L66.6821 129.845L53.3643 117.522L33.3875 129.845Z" stroke="black" stroke-width="7.95031" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<filter id="filter0_i_78_11" x="0.0928497" y="0.453415" width="159.814" height="147.876" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="1.59006"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_78_11"/>
+</filter>
+</defs>
+</svg>
