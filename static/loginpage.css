@@ -1,0 +1,196 @@
+.loginpage-container {
+  min-height: 100vh;
+}
+.loginpage-loginpage {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.logo-icon {
+  position: absolute;
+  top: 40px;
+  left: 60px;
+  width: 80px;
+  height: 80px;
+  z-index: 200;
+}
+.loginpage-input-fields {
+  top: 250px;
+  left: 0px;
+  right: 0px;
+  width: 600px;
+  height: 210px;
+  margin: auto;
+  display: flex;
+  padding: 0;
+  z-index: 200;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.loginpage-input-method {
+  top: 250px;
+  left: 0px;
+  right: 0px;
+  width: 600px;
+  height: 210px;
+  margin: auto;
+  display: flex;
+  padding: 0;
+  z-index: 150;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.loginpage-password-fieldinput {
+  top: 150px;
+  left: 300px;
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+  z-index: 300;
+}
+.loginpage-text {
+  top: 155px;
+  left: 0px;
+  color: rgb(25, 25, 25);
+  width: 200px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Cormorant;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.loginpage-user-name-fieldinput {
+  top: 0px;
+  left: 300px;
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  border-color: transparent;
+}
+.loginpage-text2 {
+  top: 5px;
+  left: 0px;
+  color: rgb(25, 25, 25);
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Cormorant;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.loginpage-textinput {
+  top: 0px;
+  left: 300px;
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  border-width: 0px;
+  background-color: transparent;
+}
+.loginpage-textinput1 {
+  left: 300px;
+  width: 300px;
+  bottom: 0px;
+  height: 60px;
+  position: absolute;
+  border-width: 0px;
+  background-color: transparent;
+}
+.loginpage-button {
+  top: 550px;
+  left: 0px;
+  right: 0px;
+  width: 200px;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-radius: 25px;
+  flex-direction: row;
+  justify-content: flex-start;
+  z-index: 250;
+}
+.loginpage-link {
+  top: 0px;
+  left: 0px;
+  color: rgb(255, 255, 255);
+  width: 200px;
+  height: 60px;
+  z-index: 300;
+  position: absolute;
+  font-size: 32px;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Cormorant;
+  border-width: 0px;
+  border-radius: 25px;
+  text-decoration: none;
+  background-color: rgb(50, 125, 250);
+}
+.loginpage-link:hover {
+  border-width: 2px;
+}
+.loginpage-background {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.loginpage-background-image {
+  top: 0px;
+  left: 3px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-color: transparent;
+  visibility: 30%;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="english">
+    <head>
+        <title>Sign Up Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <style data-tag="default-style-sheet">
+            html {
+                font-family: Inter;
+                font-size: 16px;
+            }
+            body {
+                font-weight: 400;
+                font-style:normal;
+                text-decoration: none;
+                text-transform: none;
+                letter-spacing: normal;
+                line-height: 1.15;
+                color: var(--dl-color-gray-black);
+                background-color: var(--dl-color-gray-white);
+            }
+        </style>
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+            data-tag="font"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+            data-tag="font"
+        />
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+        <link href="./signuppage.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="signuppage-container">
+            <div class="signuppage-signuppage">
+                <img class="logo-icon"/ src="public/logo.svg">
+                <form action="home.html">
+                    <div class="signuppage-input-fields">
+                        <div class="form-row">
+                            <input type="username" name="user name" class="signuppage-user-name-field-input" placeholder="Please enter your User Name" required>
+                            <input type="storename" name="store name" class="signuppage-store-name-field-input" placeholder="Please enter your Store Name">
+                            <input type="emailid" name="email id" class="signuppage-email-i-d-field-input" placeholder="Please enter your Email ID" required>
+                            <input type="password" name="password" class="signuppage-password-fieldinput" placeholder="Please enter your Password" required>
+                            <input type="password" name="confirm password" class="signuppage-confirm-password-fieldinput" placeholder="Please re-enter your Password" required>
+                            <input type="contactno" name="contact number" class="signuppage-contact-no-fieldinput" placeholder="Please enter your Contact Number" required>
+                            <input type="address" name="address" class="signuppage-address-fieldinput" placeholder="Please enter your Address" required>
+                            <input type="city" name="city" class="signuppage-city-fieldinput" placeholder="Please enter your City" required>
+                            <input type="country" name="country" class="signuppage-country-field-input" placeholder="Please enter your Country" required>
+                            <input type="storetype" name="store type" class="signuppage-store-type-field-input" placeholder="Please enter the Type of your Store" required>
+                        </div>
+                    </div>
+                    <div class="signuppage-button">
+                        <button type="submit" class="signuppage-link button">Submit</button>
+                    </div>
+                </form>
+                <div class="signuppage-input-methods">
+                    <h5 class="signuppage-text">User Name :</h5>
+                    <h5 class="signuppage-text01">Store Name :</h5>
+                    <h5 class="signuppage-text02">Email ID :</h5>
+                    <h5 class="signuppage-text03">Password :</h5>
+                    <h5 class="signuppage-text04">Confirm Password :</h5>
+                    <h5 class="signuppage-text05">Contact Number :</h5>
+                    <h5 class="signuppage-text08">Address :</h5>
+                    <h5 class="signuppage-text09">City :</h5>
+                    <h5 class="signuppage-text10">Country :</h5>
+                    <h5 class="signuppage-text11">Type of Store :</h5>
+                </div>
+                <div class="signuppage-background">
+                    <img
+                        alt="BackgroundImage1082"
+                        src="public/playground_assets/unsplash-image.jpeg"
+                        class="signuppage-background-image"
+                    />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
