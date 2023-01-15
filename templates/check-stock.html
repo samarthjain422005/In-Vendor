@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./check-stock.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM Plex Sans Hebrew:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="check-stock">
+      <img class="logo-icon5" alt="" src="public/logo5.svg" />
+      <div class="invendor5">InVendor</div>
+      <button class="home4" id="home">Home</button
+      ><button class="discover3" id="discover">Discover</button
+      ><button class="profile4">Profile</button>
+      <div class="enter-product-id1">Enter Product ID :</div>
+      <div class="details">Details :</div>
+      <div class="check-stock-child"></div>
+      <input class="check-stock-item" type="text" /><button class="enter2">
+        <div class="enter-inner"></div>
+        <div class="enter3">Enter</div>
+      </button>
+    </div>
+
+    <script>
+      var home = document.getElementById("home");
+      if (home) {
+        home.addEventListener("click", function (e) {
+          window.location.href = "./home-page.html";
+        });
+      }
+      
+      var discover = document.getElementById("discover");
+      if (discover) {
+        discover.addEventListener("click", function (e) {
+          window.location.href = "./discover-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

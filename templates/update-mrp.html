@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./update-mrp.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM Plex Sans Hebrew:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="update-mrp">
+      <img class="logo-icon3" alt="" src="public/logo3.svg" />
+      <div class="invendor3">InVendor</div>
+      <button class="home2" id="home">Home</button
+      ><button class="discover1" id="discover">Discover</button
+      ><button class="profile2">Profile</button>
+      <div class="enter-product-code">Enter Product Code :</div>
+      <div class="enter-updated-mrp">Enter Updated MRP :</div>
+      <div class="enter-updated-mrp1">Enter Updated MRP :</div>
+      <div class="updated-mrp">Updated MRP :</div>
+      <input class="update-mrp-child" type="text" /><input
+        class="update-mrp-item"
+        type="text"
+      /><input class="update-mrp-inner" type="text" />
+      <div class="update-mrp-child1"></div>
+      <button class="enter">
+        <div class="enter-child"></div>
+        <div class="update">Update</div>
+      </button>
+    </div>
+
+    <script>
+      var home = document.getElementById("home");
+      if (home) {
+        home.addEventListener("click", function (e) {
+          window.location.href = "./home-page.html";
+        });
+      }
+      
+      var discover = document.getElementById("discover");
+      if (discover) {
+        discover.addEventListener("click", function (e) {
+          window.location.href = "./discover-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

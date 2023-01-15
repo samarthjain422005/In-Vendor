@@ -1,0 +1,319 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0.8px;
+  border-radius: 19.88px;
+  width: 225.2px;
+  height: 256px;
+  opacity: 0.4;
+}
+.taxes {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.management {
+  margin: 0;
+}
+.taxes-management-txt-container {
+  line-break: anywhere;
+  width: 100%;
+}
+.taxes-management {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  width: 225.19px;
+  height: 87.45px;
+}
+.tablerreceipt-tax-icon {
+  position: absolute;
+  top: 87.45px;
+  left: 33.09px;
+  width: 159.81px;
+  height: 147.88px;
+  overflow: hidden;
+}
+.vector-parent {
+  position: absolute;
+  top: 685px;
+  left: 475px;
+  width: 226px;
+  height: 256px;
+  cursor: pointer;
+  color: var(--color-gray-600);
+}
+.group-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-400);
+  width: 183.69px;
+  height: 52px;
+}
+.rectangle-parent,
+.register {
+  position: absolute;
+  width: 184px;
+  height: 52px;
+}
+.register {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-6xs);
+  font-family: var(--font-inter);
+  color: #fff9f9;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 46px;
+  left: 982px;
+}
+.landing-page-child {
+  position: absolute;
+  top: 46px;
+  left: 1205px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-400);
+  width: 158.69px;
+  height: 52.09px;
+}
+.c,
+.login {
+  position: absolute;
+}
+.login {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 46px;
+  left: 1205px;
+  font-size: var(--font-size-6xs);
+  font-family: var(--font-inter);
+  color: #fdf3f3;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 159px;
+  height: 52px;
+}
+.c {
+  top: 0;
+  left: 11.33px;
+}
+.ellipse-parent,
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 38.04px;
+  height: 38.04px;
+}
+.rectangle-div {
+  left: 54px;
+  background-color: var(--color-white);
+  width: 232px;
+  height: 38px;
+}
+.copyright-2023 {
+  position: absolute;
+  top: 3.24px;
+  left: 74.46px;
+}
+.group-parent,
+.services-we-offer {
+  position: absolute;
+  font-family: var(--font-inter);
+}
+.group-parent {
+  top: 973px;
+  left: 623px;
+  width: 286px;
+  height: 38.04px;
+  font-size: var(--font-size-6xs);
+}
+.services-we-offer {
+  top: 636px;
+  left: 430px;
+  font-size: 32.38px;
+  display: inline-block;
+  width: 621.62px;
+  height: 76.08px;
+}
+.invendor,
+.logo-icon {
+  position: absolute;
+  top: 19.5px;
+  left: 59.5px;
+  width: 105px;
+  height: 105px;
+}
+.invendor {
+  top: 42px;
+  left: 162px;
+  font-size: var(--font-size-base);
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 294px;
+  height: 73px;
+}
+.landing-page-item {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 1440px;
+  height: 480px;
+  object-fit: cover;
+}
+.group-child1 {
+  position: absolute;
+  top: -2px;
+  left: 0.4px;
+  border-radius: 19.96px;
+  background-color: var(--color-gray-200);
+  border: 4px solid var(--color-black);
+  box-sizing: border-box;
+  width: 227.6px;
+  height: 259.99px;
+  opacity: 0.4;
+}
+.bill-management {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 223.6px;
+  height: 87.45px;
+}
+.uilbill-icon {
+  position: absolute;
+  top: 94.61px;
+  left: 35.94px;
+  width: 150.13px;
+  height: 143.11px;
+  overflow: hidden;
+}
+.rectangle-group {
+  position: absolute;
+  top: 696px;
+  left: 162px;
+  width: 226px;
+  height: 256px;
+  cursor: pointer;
+  font-size: 28.75px;
+}
+.group-child2,
+.product-management {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 226px;
+}
+.group-child2 {
+  border-radius: 20.36px;
+  background-color: var(--color-gray-100);
+  border: 4.1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 256px;
+  opacity: 0.4;
+}
+.product-management {
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  height: 87.45px;
+}
+.carboncarbon-for-ibm-product-icon {
+  position: absolute;
+  top: 106.53px;
+  left: 46.81px;
+  width: 131.56px;
+  height: 131.18px;
+  overflow: hidden;
+}
+.rectangle-container {
+  position: absolute;
+  top: 685px;
+  left: 788px;
+  width: 226px;
+  height: 256px;
+  cursor: pointer;
+  font-size: 29.31px;
+  color: var(--color-gray-500);
+}
+.group-child3 {
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-100);
+  border: 5px solid var(--color-black);
+  box-sizing: border-box;
+  opacity: 0.4;
+}
+.group-child3,
+.group-wrapper,
+.landing-page-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 219.21px;
+  height: 256px;
+}
+.landing-page-inner {
+  top: 685px;
+  left: 1074px;
+  cursor: pointer;
+}
+.data-analytics {
+  position: absolute;
+  top: 683px;
+  left: 1077px;
+  font-size: 32px;
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 207px;
+  height: 113px;
+}
+.material-symbolschart-data-ou-icon {
+  position: absolute;
+  top: 792px;
+  left: 1132px;
+  width: 103px;
+  height: 104px;
+  overflow: hidden;
+}
+.landing-page {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  background-image: url(./public/landing-page@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: 28.62px;
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

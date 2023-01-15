@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./search-bill-page-2.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM Plex Sans Hebrew:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="search-bill-page-2">
+      <img class="logo-icon17" alt="" src="public/logo17.svg" />
+      <div class="invendor17">InVendor</div>
+      <button class="home16" id="home">Home</button
+      ><button class="discover15" id="discover">Discover</button
+      ><button class="profile16">Profile</button
+      ><input class="search-bill-page-2-child" type="text" />
+      <div class="enter-the-customer">
+        Enter the customer name you want to search :
+      </div>
+      <div class="results3">Results :</div>
+      <div class="search-bill-page-2-item"></div>
+      <button class="enter16">
+        <div class="enter-child9"></div>
+        <div class="enter17">Enter</div>
+      </button>
+    </div>
+
+    <script>
+      var home = document.getElementById("home");
+      if (home) {
+        home.addEventListener("click", function (e) {
+          window.location.href = "./home-page.html";
+        });
+      }
+      
+      var discover = document.getElementById("discover");
+      if (discover) {
+        discover.addEventListener("click", function (e) {
+          window.location.href = "./discover-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

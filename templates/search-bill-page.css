@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.logo-icon19 {
+  position: absolute;
+  top: 19.5px;
+  left: 105.5px;
+  width: 105px;
+  height: 105px;
+}
+.discover17,
+.home18,
+.invendor19,
+.profile18 {
+  position: absolute;
+  top: 44px;
+  left: 234px;
+  font-size: var(--font-size-base);
+  text-decoration: underline;
+  color: var(--color-gray-800);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 194px;
+  height: 71px;
+}
+.discover17,
+.home18,
+.profile18 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 38px;
+  left: 720px;
+  font-family: var(--font-ibm-plex-sans-hebrew);
+  color: var(--color-black);
+  width: 216px;
+  height: 67px;
+}
+.discover17,
+.profile18 {
+  left: 962px;
+}
+.profile18 {
+  left: 1178px;
+}
+.search-bill-page-child,
+.search-bill-page-item {
+  position: absolute;
+  left: 101px;
+  border-radius: var(--br-sm);
+  width: 1077px;
+  height: 72.58px;
+  cursor: pointer;
+}
+.search-bill-page-child {
+  border: 0;
+  padding: 0;
+  background-color: var(--color-white);
+  top: 206.96px;
+}
+.search-bill-page-item {
+  top: 336.44px;
+}
+.search-bill-page-inner {
+  padding: 0;
+  top: 455.12px;
+}
+.rectangle-button,
+.search-bill-page-child1,
+.search-bill-page-child2,
+.search-bill-page-inner {
+  border: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  left: 101px;
+  border-radius: var(--br-sm);
+  width: 1077px;
+  height: 72.58px;
+  cursor: pointer;
+}
+.rectangle-button {
+  padding: 0;
+  top: 584.6px;
+}
+.search-bill-page-child1,
+.search-bill-page-child2 {
+  top: 714.07px;
+}
+.search-bill-page-child2 {
+  padding: 0;
+  top: 832.76px;
+}
+.search-by-bill,
+.search-by-customer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.search-by-bill {
+  top: 205px;
+  left: 104.92px;
+  width: 1073.08px;
+  height: 74.55px;
+}
+.search-by-customer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 336.44px;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+}
+.search-by-customer,
+.search-by-date,
+.search-by-mobile {
+  left: 101px;
+  width: 1073.08px;
+  height: 74.55px;
+}
+.search-by-mobile {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 455.12px;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.search-by-date {
+  top: 584.6px;
+}
+.back-to-previous,
+.search-by-date,
+.search-by-item {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.search-by-item {
+  top: 714px;
+  left: 103px;
+  font-size: var(--font-size-base);
+  width: 1094px;
+  height: 76px;
+  cursor: pointer;
+}
+.back-to-previous {
+  top: 832.76px;
+  left: 102.96px;
+  width: 1073.08px;
+  height: 74.55px;
+}
+.dashiconsexit {
+  position: absolute;
+  top: 851.4px;
+  left: 1091.68px;
+  width: 55.91px;
+  height: 48.06px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.icround-search-icon,
+.icround-search-icon1 {
+  position: absolute;
+  top: 214.81px;
+  left: 1084.82px;
+  width: 63.76px;
+  height: 64.74px;
+  overflow: hidden;
+}
+.icround-search-icon1 {
+  top: 344.28px;
+}
+.icround-search-icon2,
+.icround-search-icon3,
+.icround-search-icon4 {
+  position: absolute;
+  top: 459.05px;
+  left: 1083.84px;
+  width: 63.76px;
+  height: 64.74px;
+  overflow: hidden;
+}
+.icround-search-icon3,
+.icround-search-icon4 {
+  top: 592.45px;
+}
+.icround-search-icon4 {
+  top: 718px;
+  left: 1082.86px;
+}
+.search-bill-page {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  background-image: url(./public/print-invoice-page@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,290 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.logo-icon20 {
+  position: absolute;
+  top: 19.5px;
+  left: 105.5px;
+  width: 105px;
+  height: 105px;
+}
+.discover18,
+.home19,
+.invendor20,
+.profile19 {
+  position: absolute;
+  top: 44px;
+  left: 234px;
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 194px;
+  height: 71px;
+}
+.discover18,
+.home19,
+.profile19 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 38px;
+  left: 720px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-ibm-plex-sans-hebrew);
+  color: var(--color-black);
+  text-align: center;
+  width: 216px;
+  height: 67px;
+}
+.discover18,
+.profile19 {
+  left: 962px;
+}
+.profile19 {
+  left: 1178px;
+}
+.group-child16 {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  border-radius: var(--br-md);
+  width: 279px;
+  height: 322px;
+  opacity: 0.5;
+}
+.mrp {
+  margin: 0;
+}
+.update-mrp-txt-container {
+  line-break: anywhere;
+  width: 100%;
+}
+.update-mrp1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-gray-600);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 280px;
+  height: 120px;
+}
+.product-management-inner,
+.vector-parent1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 322px;
+}
+.product-management-inner {
+  top: 596px;
+  left: 409px;
+}
+.group-child17 {
+  position: absolute;
+  top: -2.5px;
+  left: 0.5px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-200);
+  border: 5px solid var(--color-black);
+  box-sizing: border-box;
+  width: 285px;
+  height: 327px;
+  opacity: 0.5;
+}
+.rectangle-parent7 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 596px;
+  left: 753px;
+  width: 283px;
+  height: 322px;
+}
+.mingcutebill-line-icon {
+  position: absolute;
+  top: 697px;
+  left: 815px;
+  width: 171px;
+  height: 185px;
+  overflow: hidden;
+}
+.group-child18 {
+  cursor: pointer;
+  border: 5px solid var(--color-black);
+  padding: 0;
+  background-color: var(--color-gray-200);
+  position: absolute;
+  top: -2.5px;
+  left: 0.5px;
+  border-radius: var(--br-md);
+  box-sizing: border-box;
+  width: 285px;
+  height: 327px;
+  opacity: 0.5;
+}
+.check-products {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+  height: 120px;
+}
+.material-symbolsfact-check-icon {
+  position: absolute;
+  top: 138px;
+  left: 67px;
+  width: 152px;
+  height: 146px;
+  overflow: hidden;
+}
+.material-symbolsfeatured-play-icon {
+  position: absolute;
+  top: 486px;
+  left: 417px;
+  width: 148px;
+  height: 161px;
+  overflow: hidden;
+}
+.product-management-child,
+.rectangle-parent8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 565px;
+  height: 647px;
+}
+.product-management-child {
+  top: 190px;
+  left: 43px;
+  color: var(--color-gray-700);
+}
+.material-symbolsadd-circle-icon {
+  position: absolute;
+  height: 6.74%;
+  width: 4.44%;
+  top: 75.59%;
+  right: 54.17%;
+  bottom: 17.68%;
+  left: 41.39%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.add-products {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-gray-700);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 280px;
+  height: 120px;
+}
+.fluenttext-bullet-list-add-24-icon {
+  position: absolute;
+  top: 147px;
+  left: 75px;
+  width: 128px;
+  height: 136px;
+  overflow: hidden;
+}
+.product-management-inner1,
+.rectangle-parent9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 283px;
+  height: 322px;
+}
+.product-management-inner1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 181px;
+  left: 405px;
+}
+.mingcutebill-line {
+  position: absolute;
+  top: 84px;
+  left: 62px;
+  width: 171px;
+  height: 185px;
+  overflow: hidden;
+}
+.group-parent9 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 181px;
+  left: 756px;
+  width: 283px;
+  height: 322px;
+}
+.fluent-mdl2post-update-icon {
+  position: absolute;
+  top: 285px;
+  left: 799px;
+  width: 194px;
+  height: 228px;
+  overflow: hidden;
+}
+.check {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.product-management-inner2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 181px;
+  left: 1122px;
+  width: 283px;
+  height: 322px;
+}
+.vaadinstock-icon1 {
+  position: absolute;
+  top: 330px;
+  left: 1202px;
+  width: 120px;
+  height: 123px;
+  overflow: hidden;
+}
+.product-management1 {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  background-image: url(./public/update-mrp@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-800);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./discover-page.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM Plex Sans Hebrew:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="discover-page">
+      <img class="logo-icon1" alt="" src="public/logo1.svg" />
+      <div class="invendor1">InVendor</div>
+      <button class="home" id="home">Home</button
+      ><button class="profile">Profile</button>
+      <div class="group-div">
+        <div class="group-child4"></div>
+        <div class="group-container">
+          <div class="group-parent1">
+            <div class="group-container">
+              <div class="rectangle-frame">
+                <div class="group-child5"></div>
+              </div>
+              <div class="star-product">Star Product</div>
+            </div>
+            <img
+              class="icon-parkad-product"
+              alt=""
+              src="public/iconparkadproduct.svg"
+            /><img
+              class="icbaseline-star-outline-icon"
+              alt=""
+              src="public/icbaselinestaroutline.svg"
+            />
+          </div>
+          <div class="product-1">Product 1</div>
+          <div class="product-2">Product 2</div>
+          <div class="product-3">Product 3</div>
+        </div>
+      </div>
+      <div class="group-parent3">
+        <div class="vector-group">
+          <div class="vector-group">
+            <img class="rectangle-icon" alt="" src="public/rectangle-101.svg" />
+            <div class="consumer-retainability">Consumer Retainability</div>
+            <img
+              class="icbaseline-people-outline-icon"
+              alt=""
+              src="public/icbaselinepeopleoutline.svg"
+            />
+          </div>
+          <div class="group-child6"></div>
+        </div>
+        <div class="group-parent5">
+          <div class="wrapper"><b class="b">34%</b></div>
+          <div class="customers-revisit-the">
+            customers revisit the store at least once
+          </div>
+        </div>
+      </div>
+      <button class="group-button" id="groupButton">
+        <div class="group-child7"></div>
+        <div class="group-parent6">
+          <div class="market-analytics-parent">
+            <div class="market-analytics">Market Analytics</div>
+            <img
+              class="icon-park-outlineanalysis"
+              alt=""
+              src="public/iconparkoutlineanalysis.svg"
+            />
+          </div>
+          <div class="this-feature-provides">
+            This feature provides a summary of market trends for all the
+            products.
+          </div>
+        </div></button
+      ><button class="group-parent7" id="groupButton1">
+        <div class="rectangle-parent1">
+          <div class="group-child8"></div>
+          <div class="low-stock-items-container">
+            <span class="generate-report-txt-container"
+              ><p class="low-stock">Low Stock</p>
+              <p class="items">items</p></span
+            >
+          </div>
+          <img
+            class="vaadinstock-icon"
+            alt=""
+            src="public/vaadinstock.svg"
+          /><img
+            class="mdiarrow-down-icon"
+            alt=""
+            src="public/mdiarrowdown.svg"
+          />
+        </div>
+        <div class="this-feature-provides1">
+          This feature provides the info of low stock products in the store.
+        </div>
+      </button>
+      <div class="group-parent8">
+        <div class="rectangle-parent1"><div class="group-child8"></div></div>
+        <div class="this-feature-generates">
+          This feature generates a report of the store using data analytics.
+        </div>
+      </div>
+      <div class="generate-report">
+        <span class="generate-report-txt-container"
+          ><p class="low-stock">Generate</p>
+          <p class="items">Report</p></span
+        >
+      </div>
+      <img
+        class="material-symbolsdownload-for-icon"
+        alt=""
+        src="public/materialsymbolsdownloadforofflineoutlinerounded.svg"
+      />
+    </div>
+
+    <script>
+      var home = document.getElementById("home");
+      if (home) {
+        home.addEventListener("click", function (e) {
+          window.location.href = "./home-page.html";
+        });
+      }
+      
+      var groupButton = document.getElementById("groupButton");
+      if (groupButton) {
+        groupButton.addEventListener("click", function (e) {
+          // Please sync "market analytics" to the project
+        });
+      }
+      
+      var groupButton1 = document.getElementById("groupButton1");
+      if (groupButton1) {
+        groupButton1.addEventListener("click", function (e) {
+          // Please sync "low stock" to the project
+        });
+      }
+      </script>
+  </body>
+</html>

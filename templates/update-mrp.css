@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.logo-icon3 {
+  position: absolute;
+  top: 19.5px;
+  left: 105.5px;
+  width: 105px;
+  height: 105px;
+}
+.discover1,
+.home2,
+.invendor3,
+.profile2 {
+  position: absolute;
+  top: 44px;
+  left: 234px;
+  text-decoration: underline;
+  color: var(--color-gray-800);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 194px;
+  height: 71px;
+}
+.discover1,
+.home2,
+.profile2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 38px;
+  left: 720px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-ibm-plex-sans-hebrew);
+  color: var(--color-black);
+  width: 216px;
+  height: 67px;
+}
+.discover1,
+.profile2 {
+  left: 962px;
+}
+.profile2 {
+  left: 1178px;
+}
+.enter-product-code,
+.enter-updated-mrp,
+.enter-updated-mrp1,
+.updated-mrp {
+  position: absolute;
+  top: 167px;
+  left: 182px;
+  display: flex;
+  align-items: center;
+  width: 754px;
+  height: 83px;
+}
+.enter-updated-mrp,
+.enter-updated-mrp1,
+.updated-mrp {
+  top: 298px;
+}
+.enter-updated-mrp1,
+.updated-mrp {
+  top: 429px;
+}
+.updated-mrp {
+  top: 608px;
+  left: 178px;
+  width: 549px;
+}
+.update-mrp-child,
+.update-mrp-item {
+  border: 0;
+  left: 619px;
+  width: 741px;
+  height: 83px;
+}
+.update-mrp-child {
+  background-color: var(--color-white);
+  position: absolute;
+  top: 167px;
+}
+.update-mrp-item {
+  top: 298px;
+}
+.update-mrp-child1,
+.update-mrp-inner,
+.update-mrp-item {
+  position: absolute;
+  background-color: var(--color-white);
+}
+.update-mrp-inner {
+  border: 0;
+  top: 429px;
+  left: 619px;
+  width: 741px;
+  height: 83px;
+}
+.update-mrp-child1 {
+  top: 691px;
+  left: 164px;
+  width: 1230px;
+  height: 303px;
+}
+.enter-child {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-400);
+  width: 203px;
+  height: 74px;
+}
+.enter,
+.enter-child,
+.update {
+  position: absolute;
+}
+.update {
+  top: 6px;
+  left: 2px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 201px;
+  height: 63px;
+}
+.enter {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 565px;
+  left: 576px;
+  width: 203px;
+  height: 74px;
+}
+.update-mrp {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  background-image: url(./public/update-mrp@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

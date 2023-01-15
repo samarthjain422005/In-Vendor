@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./pay-taxes-page.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM Plex Sans Hebrew:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="pay-taxes-page">
+      <img class="logo-icon10" alt="" src="public/logo10.svg" />
+      <div class="invendor10">InVendor</div>
+      <button class="home9" id="home">Home</button
+      ><button class="discover8" id="discover">Discover</button
+      ><button class="profile9">Profile</button>
+      <div class="pay-taxes-page-child"></div>
+      <div class="total-gst-due">Total GST due :</div>
+      <button class="rectangle-parent5">
+        <div class="group-child14"></div>
+        <div class="pay-now">Pay Now</div></button
+      ><button class="rectangle-parent6" id="groupButton1">
+        <div class="group-child15"></div>
+        <div class="check-taxes1">Check Taxes</div>
+      </button>
+    </div>
+
+    <script>
+      var home = document.getElementById("home");
+      if (home) {
+        home.addEventListener("click", function (e) {
+          window.location.href = "./home-page.html";
+        });
+      }
+      
+      var discover = document.getElementById("discover");
+      if (discover) {
+        discover.addEventListener("click", function (e) {
+          window.location.href = "./discover-page.html";
+        });
+      }
+      
+      var groupButton1 = document.getElementById("groupButton1");
+      if (groupButton1) {
+        groupButton1.addEventListener("click", function (e) {
+          window.location.href = "./check-taxes-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.logo-icon10 {
+  position: absolute;
+  top: 19.5px;
+  left: 105.5px;
+  width: 105px;
+  height: 105px;
+}
+.discover8,
+.home9,
+.invendor10,
+.profile9 {
+  position: absolute;
+  top: 44px;
+  left: 234px;
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 194px;
+  height: 71px;
+}
+.discover8,
+.home9,
+.profile9 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 38px;
+  left: 720px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-ibm-plex-sans-hebrew);
+  color: var(--color-black);
+  text-align: center;
+  width: 216px;
+  height: 67px;
+}
+.discover8,
+.profile9 {
+  left: 962px;
+}
+.profile9 {
+  left: 1178px;
+}
+.pay-taxes-page-child {
+  position: absolute;
+  top: 330px;
+  left: 91px;
+  background-color: var(--color-white);
+  width: 574px;
+  height: 85px;
+}
+.total-gst-due {
+  position: absolute;
+  top: 238px;
+  left: 90px;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 577px;
+  height: 92px;
+}
+.group-child14 {
+  position: absolute;
+  top: 0;
+  left: 58.76px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-400);
+  width: 249.71px;
+  height: 94px;
+}
+.pay-now,
+.rectangle-parent5 {
+  position: absolute;
+  width: 374px;
+}
+.pay-now {
+  top: 2px;
+  left: 0;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 92px;
+}
+.rectangle-parent5 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 484px;
+  left: 43px;
+  height: 94px;
+}
+.group-child15 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-400);
+  width: 264.37px;
+  height: 94px;
+}
+.check-taxes1 {
+  position: absolute;
+  top: 2px;
+  left: 2.53px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 259px;
+  height: 92px;
+}
+.rectangle-parent6 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 629px;
+  left: 92.47px;
+  width: 264.37px;
+  height: 94px;
+}
+.pay-taxes-page {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  background-image: url(./public/taxes-page@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-800);
+  font-family: var(--font-poppins);
+}

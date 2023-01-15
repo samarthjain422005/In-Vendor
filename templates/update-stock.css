@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.logo-icon4 {
+  position: absolute;
+  top: 19.5px;
+  left: 105.5px;
+  width: 105px;
+  height: 105px;
+}
+.discover2,
+.home3,
+.invendor4,
+.profile3 {
+  position: absolute;
+  top: 44px;
+  left: 234px;
+  text-decoration: underline;
+  color: var(--color-gray-800);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 194px;
+  height: 71px;
+}
+.discover2,
+.home3,
+.profile3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 38px;
+  left: 720px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-ibm-plex-sans-hebrew);
+  color: var(--color-black);
+  width: 216px;
+  height: 67px;
+}
+.discover2,
+.profile3 {
+  left: 962px;
+}
+.profile3 {
+  left: 1178px;
+}
+.enter-product-id {
+  top: 167px;
+  width: 754px;
+  height: 83px;
+}
+.enter-product-id,
+.enter-stock-you,
+.updated-stock {
+  position: absolute;
+  left: 74px;
+  display: flex;
+  align-items: center;
+}
+.enter-stock-you {
+  top: 290.93px;
+  font-size: 37.84px;
+  width: 713.3px;
+  height: 78.52px;
+}
+.updated-stock {
+  top: 457px;
+  width: 549px;
+  height: 83px;
+}
+.update-stock-child,
+.update-stock-item {
+  border: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: 171px;
+  left: 649px;
+  width: 695px;
+  height: 79px;
+}
+.update-stock-item {
+  top: 305px;
+}
+.enter-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-400);
+  width: 203px;
+  height: 74px;
+}
+.update1 {
+  position: absolute;
+  top: 6px;
+  left: 2px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 201px;
+  height: 63px;
+}
+.enter1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 425px;
+  left: 584px;
+  width: 203px;
+  height: 74px;
+}
+.update-stock {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  background-image: url(./public/update-mrp@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

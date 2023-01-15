@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./print-invoice-page.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM Plex Sans Hebrew:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="print-invoice-page">
+      <img class="logo-icon12" alt="" src="public/logo12.svg" />
+      <div class="invendor12">InVendor</div>
+      <button class="home11" id="home">Home</button
+      ><button class="discover10" id="discover">Discover</button
+      ><button class="profile11">Profile</button
+      ><input class="print-invoice-page-child" type="text" />
+      <div class="enter-bill-number">Enter Bill number :</div>
+      <button class="enter8">
+        <div class="enter-child4"></div>
+        <div class="print-invoice">Print invoice</div>
+      </button>
+    </div>
+
+    <script>
+      var home = document.getElementById("home");
+      if (home) {
+        home.addEventListener("click", function (e) {
+          window.location.href = "./home-page.html";
+        });
+      }
+      
+      var discover = document.getElementById("discover");
+      if (discover) {
+        discover.addEventListener("click", function (e) {
+          window.location.href = "./discover-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

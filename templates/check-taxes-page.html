@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./check-taxes-page.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM Plex Sans Hebrew:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="check-taxes-page">
+      <img class="logo-icon11" alt="" src="public/logo11.svg" />
+      <div class="invendor11">InVendor</div>
+      <button class="home10" id="home">Home</button
+      ><button class="discover9" id="discover">Discover</button
+      ><button class="profile10">Profile</button>
+      <div class="number-of-products">Number of products Tax Due in :</div>
+      <div class="total-tax-due">Total Tax Due :</div>
+      <div class="due-date">Due Date :</div>
+      <div class="check-taxes-page-child"></div>
+      <div class="check-taxes-page-item"></div>
+      <div class="check-taxes-page-inner"></div>
+    </div>
+
+    <script>
+      var home = document.getElementById("home");
+      if (home) {
+        home.addEventListener("click", function (e) {
+          window.location.href = "./home-page.html";
+        });
+      }
+      
+      var discover = document.getElementById("discover");
+      if (discover) {
+        discover.addEventListener("click", function (e) {
+          window.location.href = "./discover-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

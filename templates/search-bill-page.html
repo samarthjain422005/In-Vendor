@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./search-bill-page.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM Plex Sans Hebrew:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="search-bill-page">
+      <img class="logo-icon19" alt="" src="public/logo19.svg" />
+      <div class="invendor19">InVendor</div>
+      <button class="home18" id="home">Home</button
+      ><button class="discover17" id="discover">Discover</button
+      ><button class="profile18">Profile</button
+      ><button class="search-bill-page-child" id="rectangleButton"></button
+      ><img
+        class="search-bill-page-item"
+        alt=""
+        src="public/rectangle-23.svg"
+        id="rectangle"
+      /><button class="search-bill-page-inner" id="rectangleButton1"></button
+      ><button class="rectangle-button" id="rectangleButton2"></button
+      ><input
+        class="search-bill-page-child1"
+        type="text"
+        id="rectangleInput"
+      /><button class="search-bill-page-child2" id="rectangleButton3"></button>
+      <div class="search-by-bill">Search By Bill Number</div>
+      <button class="search-by-customer" id="searchByCustomer">
+        Search By Customer Name</button
+      ><button class="search-by-mobile" id="searchByMobile">
+        Search By Mobile Number
+      </button>
+      <div class="search-by-date">Search By Date of Billing</div>
+      <div class="search-by-item" id="searchByItem">Search By Item</div>
+      <div class="back-to-previous">Back to previous page</div>
+      <img
+        class="dashiconsexit"
+        alt=""
+        src="public/dashiconsexit.svg"
+        id="dashiconsexit"
+      /><img
+        class="icround-search-icon"
+        alt=""
+        src="public/icroundsearch.svg"
+      /><img
+        class="icround-search-icon1"
+        alt=""
+        src="public/icroundsearch1.svg"
+      /><img
+        class="icround-search-icon2"
+        alt=""
+        src="public/icroundsearch2.svg"
+      /><img
+        class="icround-search-icon3"
+        alt=""
+        src="public/icroundsearch3.svg"
+      /><img
+        class="icround-search-icon4"
+        alt=""
+        src="public/icroundsearch4.svg"
+      />
+    </div>
+
+    <script>
+      var home = document.getElementById("home");
+      if (home) {
+        home.addEventListener("click", function (e) {
+          window.location.href = "./home-page.html";
+        });
+      }
+      
+      var discover = document.getElementById("discover");
+      if (discover) {
+        discover.addEventListener("click", function (e) {
+          window.location.href = "./discover-page.html";
+        });
+      }
+      
+      var rectangleButton = document.getElementById("rectangleButton");
+      if (rectangleButton) {
+        rectangleButton.addEventListener("click", function (e) {
+          window.location.href = "./search-bill-page-1.html";
+        });
+      }
+      
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./search-bill-page-2.html";
+        });
+      }
+      
+      var rectangleButton1 = document.getElementById("rectangleButton1");
+      if (rectangleButton1) {
+        rectangleButton1.addEventListener("click", function (e) {
+          window.location.href = "./search-bill-page-3.html";
+        });
+      }
+      
+      var rectangleButton2 = document.getElementById("rectangleButton2");
+      if (rectangleButton2) {
+        rectangleButton2.addEventListener("click", function (e) {
+          window.location.href = "./search-bill-page-4.html";
+        });
+      }
+      
+      var rectangleInput = document.getElementById("rectangleInput");
+      if (rectangleInput) {
+        rectangleInput.addEventListener("click", function (e) {
+          window.location.href = "./search-bill-page-5.html";
+        });
+      }
+      
+      var rectangleButton3 = document.getElementById("rectangleButton3");
+      if (rectangleButton3) {
+        rectangleButton3.addEventListener("click", function (e) {
+          window.location.href = "./bill-page.html";
+        });
+      }
+      
+      var searchByCustomer = document.getElementById("searchByCustomer");
+      if (searchByCustomer) {
+        searchByCustomer.addEventListener("click", function (e) {
+          window.location.href = "./search-bill-page-2.html";
+        });
+      }
+      
+      var searchByMobile = document.getElementById("searchByMobile");
+      if (searchByMobile) {
+        searchByMobile.addEventListener("click", function (e) {
+          window.location.href = "./search-bill-page-3.html";
+        });
+      }
+      
+      var searchByItem = document.getElementById("searchByItem");
+      if (searchByItem) {
+        searchByItem.addEventListener("click", function (e) {
+          window.location.href = "./search-bill-page-5.html";
+        });
+      }
+      
+      var dashiconsexit = document.getElementById("dashiconsexit");
+      if (dashiconsexit) {
+        dashiconsexit.addEventListener("click", function (e) {
+          window.location.href = "./bill-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

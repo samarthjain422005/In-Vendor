@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./update-gst-page.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM Plex Sans Hebrew:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="update-gst-page">
+      <img class="logo-icon9" alt="" src="public/logo9.svg" />
+      <div class="invendor9">InVendor</div>
+      <button class="home8" id="home">Home</button
+      ><button class="discover7" id="discover">Discover</button
+      ><button class="profile8">Profile</button
+      ><input class="update-gst-page-child" type="text" /><input
+        class="update-gst-page-item"
+        type="text"
+      />
+      <div class="enter-product-code1">Enter Product Code :</div>
+      <div class="enter-updated-tax">Enter Updated tax rate :</div>
+      <button class="rectangle-parent4">
+        <div class="group-child13"></div>
+        <div class="update-gst1">Update GST</div>
+      </button>
+    </div>
+
+    <script>
+      var home = document.getElementById("home");
+      if (home) {
+        home.addEventListener("click", function (e) {
+          window.location.href = "./home-page.html";
+        });
+      }
+      
+      var discover = document.getElementById("discover");
+      if (discover) {
+        discover.addEventListener("click", function (e) {
+          window.location.href = "./discover-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

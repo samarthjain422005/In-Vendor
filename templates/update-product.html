@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./update-product.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM Plex Sans Hebrew:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="update-product">
+      <img class="logo-icon6" alt="" src="public/logo6.svg" />
+      <div class="invendor6">InVendor</div>
+      <button class="home5" id="home">Home</button
+      ><button class="discover4" id="discover">Discover</button
+      ><button class="profile5">Profile</button>
+      <div class="enter-product-name">Enter Product Name :</div>
+      <div class="enter-updated-product">Enter Updated Product name :</div>
+      <div class="enter-updated-price">Enter Updated Price per unit :</div>
+      <div class="enter-tax-rate">Enter tax rate :</div>
+      <div class="enter-updated-quantity">Enter Updated Quantity sold :</div>
+      <div class="enter-updated-stock">Enter Updated Stock :</div>
+      <input class="update-product-child" type="text" /><input
+        class="update-product-item"
+        type="text"
+      /><input class="update-product-inner" type="text" /><img
+        class="update-product-child1"
+        alt=""
+        src="public/rectangle-51.svg"
+      /><img
+        class="update-product-child2"
+        alt=""
+        src="public/rectangle-50.svg"
+      /><img
+        class="update-product-child3"
+        alt=""
+        src="public/rectangle-52.svg"
+      /><button class="enter4">
+        <div class="enter-child1"></div>
+        <div class="update2">Update</div>
+      </button>
+    </div>
+
+    <script>
+      var home = document.getElementById("home");
+      if (home) {
+        home.addEventListener("click", function (e) {
+          window.location.href = "./home-page.html";
+        });
+      }
+      
+      var discover = document.getElementById("discover");
+      if (discover) {
+        discover.addEventListener("click", function (e) {
+          window.location.href = "./discover-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

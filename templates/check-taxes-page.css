@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.logo-icon11 {
+  position: absolute;
+  top: 19.5px;
+  left: 105.5px;
+  width: 105px;
+  height: 105px;
+}
+.discover9,
+.home10,
+.invendor11,
+.profile10 {
+  position: absolute;
+  top: 44px;
+  left: 234px;
+  text-decoration: underline;
+  color: var(--color-gray-800);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 194px;
+  height: 71px;
+}
+.discover9,
+.home10,
+.profile10 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 38px;
+  left: 720px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-ibm-plex-sans-hebrew);
+  color: var(--color-black);
+  text-align: center;
+  width: 216px;
+  height: 67px;
+}
+.discover9,
+.profile10 {
+  left: 962px;
+}
+.profile10 {
+  left: 1178px;
+}
+.due-date,
+.number-of-products,
+.total-tax-due {
+  position: absolute;
+  left: 124px;
+  display: flex;
+  align-items: center;
+  width: 642px;
+  height: 126px;
+}
+.number-of-products {
+  top: 273px;
+  text-align: left;
+}
+.due-date,
+.total-tax-due {
+  top: 435px;
+  justify-content: center;
+}
+.due-date {
+  top: 597px;
+}
+.check-taxes-page-child,
+.check-taxes-page-inner,
+.check-taxes-page-item {
+  position: absolute;
+  top: 303px;
+  left: 792px;
+  background-color: var(--color-gray-300);
+  width: 386px;
+  height: 83px;
+}
+.check-taxes-page-inner,
+.check-taxes-page-item {
+  top: 456px;
+}
+.check-taxes-page-inner {
+  top: 609px;
+}
+.check-taxes-page {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  background-image: url(./public/taxes-page@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

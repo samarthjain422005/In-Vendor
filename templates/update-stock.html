@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./update-stock.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM Plex Sans Hebrew:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="update-stock">
+      <img class="logo-icon4" alt="" src="public/logo4.svg" />
+      <div class="invendor4">InVendor</div>
+      <button class="home3" id="home">Home</button
+      ><button class="discover2" id="discover">Discover</button
+      ><button class="profile3">Profile</button>
+      <div class="enter-product-id">Enter Product ID :</div>
+      <div class="enter-stock-you">Enter stock you want to add :</div>
+      <div class="updated-stock">Updated Stock :</div>
+      <input class="update-stock-child" type="text" /><input
+        class="update-stock-item"
+        type="text"
+      /><button class="enter1">
+        <div class="enter-item"></div>
+        <div class="update1">Update</div>
+      </button>
+    </div>
+
+    <script>
+      var home = document.getElementById("home");
+      if (home) {
+        home.addEventListener("click", function (e) {
+          window.location.href = "./home-page.html";
+        });
+      }
+      
+      var discover = document.getElementById("discover");
+      if (discover) {
+        discover.addEventListener("click", function (e) {
+          window.location.href = "./discover-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.logo-icon9 {
+  position: absolute;
+  top: 19.5px;
+  left: 105.5px;
+  width: 105px;
+  height: 105px;
+}
+.discover7,
+.home8,
+.invendor9,
+.profile8 {
+  position: absolute;
+  top: 44px;
+  left: 234px;
+  font-size: var(--font-size-base);
+  text-decoration: underline;
+  color: var(--color-gray-800);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 194px;
+  height: 71px;
+}
+.discover7,
+.home8,
+.profile8 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 38px;
+  left: 720px;
+  font-family: var(--font-ibm-plex-sans-hebrew);
+  color: var(--color-black);
+  width: 216px;
+  height: 67px;
+}
+.discover7,
+.profile8 {
+  left: 962px;
+}
+.profile8 {
+  left: 1178px;
+}
+.update-gst-page-child,
+.update-gst-page-item {
+  border: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: 330px;
+  left: 91px;
+  width: 574px;
+  height: 85px;
+}
+.update-gst-page-item {
+  top: 507px;
+}
+.enter-product-code1,
+.enter-updated-tax {
+  position: absolute;
+  top: 238px;
+  left: 90px;
+  display: flex;
+  align-items: center;
+  width: 577px;
+  height: 92px;
+}
+.enter-updated-tax {
+  top: 415px;
+}
+.group-child13,
+.update-gst1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.group-child13 {
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-400);
+  width: 264.37px;
+  height: 94px;
+}
+.update-gst1 {
+  font-size: var(--font-size-xs);
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 265px;
+  height: 92px;
+}
+.rectangle-parent4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 655px;
+  left: 91px;
+  width: 265px;
+  height: 94px;
+}
+.update-gst-page {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  background-image: url(./public/taxes-page@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

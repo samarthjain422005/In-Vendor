@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.logo-icon6 {
+  position: absolute;
+  top: 19.5px;
+  left: 105.5px;
+  width: 105px;
+  height: 105px;
+}
+.discover4,
+.home5,
+.invendor6,
+.profile5 {
+  position: absolute;
+  top: 44px;
+  left: 234px;
+  font-size: var(--font-size-base);
+  text-decoration: underline;
+  color: var(--color-gray-800);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 194px;
+  height: 71px;
+}
+.discover4,
+.home5,
+.profile5 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 38px;
+  left: 720px;
+  font-family: var(--font-ibm-plex-sans-hebrew);
+  color: var(--color-black);
+  width: 216px;
+  height: 67px;
+}
+.discover4,
+.profile5 {
+  left: 962px;
+}
+.profile5 {
+  left: 1178px;
+}
+.enter-product-name,
+.enter-updated-product {
+  position: absolute;
+  top: 286px;
+  left: 144px;
+  display: flex;
+  align-items: center;
+  width: 525.03px;
+  height: 63.52px;
+}
+.enter-updated-product {
+  top: 383.93px;
+  width: 498.24px;
+}
+.enter-tax-rate,
+.enter-updated-price,
+.enter-updated-quantity,
+.enter-updated-stock {
+  position: absolute;
+  top: 481.89px;
+  left: 144px;
+  display: flex;
+  align-items: center;
+  width: 487.52px;
+  height: 63.52px;
+}
+.enter-tax-rate,
+.enter-updated-quantity,
+.enter-updated-stock {
+  top: 579.86px;
+  width: 420.17px;
+}
+.enter-updated-quantity,
+.enter-updated-stock {
+  top: 678px;
+  width: 465.58px;
+  height: 63.75px;
+}
+.enter-updated-stock {
+  top: 776px;
+}
+.update-product-child,
+.update-product-inner,
+.update-product-item {
+  border: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: 285px;
+  left: 663px;
+  width: 527.32px;
+  height: 63.52px;
+}
+.update-product-inner,
+.update-product-item {
+  top: 383.93px;
+  left: 662.78px;
+}
+.update-product-inner {
+  top: 481.89px;
+}
+.enter-child1,
+.update-product-child1,
+.update-product-child2,
+.update-product-child3 {
+  position: absolute;
+  top: 580.17px;
+  left: 662.7px;
+  width: 527.32px;
+  height: 63.52px;
+}
+.enter-child1,
+.update-product-child2,
+.update-product-child3 {
+  top: 678.69px;
+}
+.enter-child1,
+.update-product-child3 {
+  top: 776.25px;
+}
+.enter-child1 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-400);
+  width: 203px;
+  height: 74px;
+}
+.update2 {
+  position: absolute;
+  top: 6px;
+  left: 2px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 201px;
+  height: 63px;
+}
+.enter4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 895px;
+  left: 649px;
+  width: 203px;
+  height: 74px;
+}
+.update-product {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  background-image: url(./public/update-mrp@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-4xs);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

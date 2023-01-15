@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.logo-icon12 {
+  position: absolute;
+  top: 19.5px;
+  left: 105.5px;
+  width: 105px;
+  height: 105px;
+}
+.discover10,
+.home11,
+.invendor12,
+.profile11 {
+  position: absolute;
+  top: 44px;
+  left: 234px;
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 194px;
+  height: 71px;
+}
+.discover10,
+.home11,
+.profile11 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 38px;
+  left: 720px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-ibm-plex-sans-hebrew);
+  color: var(--color-black);
+  text-align: center;
+  width: 216px;
+  height: 67px;
+}
+.discover10,
+.profile11 {
+  left: 962px;
+}
+.profile11 {
+  left: 1178px;
+}
+.print-invoice-page-child {
+  border: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: 316px;
+  left: 149px;
+  width: 1098px;
+  height: 74px;
+}
+.enter-bill-number {
+  position: absolute;
+  top: 221px;
+  left: 153px;
+  color: var(--color-black);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 1094px;
+  height: 76px;
+}
+.enter-child4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-400);
+  width: 374px;
+  height: 74px;
+}
+.print-invoice {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 372px;
+  height: 63px;
+}
+.enter8 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 438px;
+  left: 511px;
+  width: 374px;
+  height: 74px;
+}
+.print-invoice-page {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  background-image: url(./public/print-invoice-page@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-800);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./add-bill-page-1.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM Plex Sans Hebrew:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="add-bill-page-1">
+      <img class="logo-icon13" alt="" src="public/logo13.svg" />
+      <div class="invendor13">InVendor</div>
+      <button class="home12" id="home">Home</button
+      ><button class="discover11" id="discover">Discover</button
+      ><button class="profile12">Profile</button
+      ><input class="add-bill-page-1-child" type="text" /><input
+        class="add-bill-page-1-item"
+        type="text"
+      />
+      <div class="enter-the-product">Enter the product code :</div>
+      <div class="enter-quantity">Enter Quantity :</div>
+      <button class="enter9">
+        <div class="enter-child5"></div>
+        <div class="generate-invoice">Generate invoice</div>
+      </button>
+    </div>
+
+    <script>
+      var home = document.getElementById("home");
+      if (home) {
+        home.addEventListener("click", function (e) {
+          window.location.href = "./home-page.html";
+        });
+      }
+      
+      var discover = document.getElementById("discover");
+      if (discover) {
+        discover.addEventListener("click", function (e) {
+          window.location.href = "./discover-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

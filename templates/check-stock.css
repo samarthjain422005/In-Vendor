@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.logo-icon5 {
+  position: absolute;
+  top: 19.5px;
+  left: 105.5px;
+  width: 105px;
+  height: 105px;
+}
+.discover3,
+.home4,
+.invendor5 {
+  text-decoration: underline;
+  text-align: center;
+  justify-content: center;
+}
+.invendor5 {
+  position: absolute;
+  top: 44px;
+  left: 234px;
+  color: var(--color-gray-800);
+  display: flex;
+  align-items: center;
+  width: 194px;
+  height: 71px;
+}
+.discover3,
+.home4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 38px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-ibm-plex-sans-hebrew);
+  color: var(--color-black);
+  width: 216px;
+  height: 67px;
+}
+.home4 {
+  position: absolute;
+  left: 720px;
+  display: flex;
+  align-items: center;
+}
+.discover3 {
+  left: 962px;
+}
+.details,
+.discover3,
+.enter-product-id1,
+.profile4 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.profile4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 38px;
+  left: 1178px;
+  font-size: var(--font-size-base);
+  text-decoration: underline;
+  font-family: var(--font-ibm-plex-sans-hebrew);
+  color: var(--color-black);
+  text-align: center;
+  justify-content: center;
+  width: 216px;
+  height: 67px;
+}
+.details,
+.enter-product-id1 {
+  top: 167px;
+  left: 107px;
+  width: 933px;
+  height: 83px;
+}
+.details {
+  top: 293px;
+  width: 549px;
+}
+.check-stock-child,
+.check-stock-item {
+  position: absolute;
+  top: 376px;
+  left: 107px;
+  background-color: var(--color-white);
+  width: 1237px;
+  height: 521px;
+}
+.check-stock-item {
+  border: 0;
+  top: 167px;
+  left: 468px;
+  width: 584px;
+  height: 83px;
+}
+.enter-inner {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-400);
+  width: 203px;
+  height: 74px;
+}
+.enter-inner,
+.enter2,
+.enter3 {
+  position: absolute;
+}
+.enter3 {
+  top: 6px;
+  left: 2px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 201px;
+  height: 63px;
+}
+.enter2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 167px;
+  left: 1141px;
+  width: 203px;
+  height: 74px;
+}
+.check-stock {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  background-image: url(./public/update-mrp@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

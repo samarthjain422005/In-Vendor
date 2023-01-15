@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./product-management.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM Plex Sans Hebrew:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="product-management1">
+      <img class="logo-icon20" alt="" src="public/logo20.svg" />
+      <div class="invendor20">InVendor</div>
+      <button class="home19" id="home">Home</button
+      ><button class="discover18" id="discover">Discover</button
+      ><button class="profile19">Profile</button
+      ><button class="product-management-inner" id="groupButton">
+        <button class="vector-parent1" id="groupButton1">
+          <img class="group-child16" alt="" src="public/rectangle-103.svg" />
+          <div class="update-mrp1">
+            <span class="update-mrp-txt-container"
+              ><p class="check">Update</p>
+              <p class="mrp">MRP</p></span
+            >
+          </div>
+        </button></button
+      ><button class="rectangle-parent7" id="groupButton2">
+        <div class="group-child17"></div>
+        <div class="add-products">
+          <span class="update-mrp-txt-container"
+            ><p class="check">Update</p>
+            <p class="mrp">Stock</p></span
+          >
+        </div></button
+      ><img
+        class="mingcutebill-line-icon"
+        alt=""
+        src="public/mingcutebillline.svg"
+      />
+      <div class="product-management-child">
+        <div class="rectangle-parent8">
+          <button class="group-child18" id="rectangleButton"></button>
+          <div class="check-products">Check Products</div>
+          <img
+            class="material-symbolsfact-check-icon"
+            alt=""
+            src="public/materialsymbolsfactcheck.svg"
+          /><img
+            class="material-symbolsfeatured-play-icon"
+            alt=""
+            src="public/materialsymbolsfeaturedplaylistoutlinesharp.svg"
+          />
+        </div>
+      </div>
+      <img
+        class="material-symbolsadd-circle-icon"
+        alt=""
+        src="public/materialsymbolsaddcircle.svg"
+      /><button class="product-management-inner1" id="groupButton3">
+        <div class="rectangle-parent9">
+          <div class="group-child17"></div>
+          <div class="add-products">
+            <span class="update-mrp-txt-container"
+              ><p class="check">Add</p>
+              <p class="mrp">products</p></span
+            >
+          </div>
+          <img
+            class="fluenttext-bullet-list-add-24-icon"
+            alt=""
+            src="public/fluenttextbulletlistadd24regular.svg"
+          />
+        </div></button
+      ><button class="group-parent9" id="groupButton4">
+        <div class="rectangle-parent9">
+          <div class="group-child17"></div>
+          <div class="add-products">
+            <span class="update-mrp-txt-container"
+              ><p class="check">Update</p>
+              <p class="mrp">Products</p></span
+            >
+          </div>
+        </div>
+        <div class="mingcutebill-line"></div></button
+      ><img
+        class="fluent-mdl2post-update-icon"
+        alt=""
+        src="public/fluentmdl2postupdate.svg"
+      /><button class="product-management-inner2" id="groupButton5">
+        <div class="rectangle-parent9">
+          <div class="group-child17"></div>
+          <div class="add-products">
+            <span class="update-mrp-txt-container"
+              ><p class="check">Check</p>
+              <p class="mrp">Stock</p></span
+            >
+          </div>
+        </div></button
+      ><img class="vaadinstock-icon1" alt="" src="public/vaadinstock1.svg" />
+    </div>
+
+    <script>
+      var home = document.getElementById("home");
+      if (home) {
+        home.addEventListener("click", function (e) {
+          window.location.href = "./home-page.html";
+        });
+      }
+      
+      var discover = document.getElementById("discover");
+      if (discover) {
+        discover.addEventListener("click", function (e) {
+          window.location.href = "./discover-page.html";
+        });
+      }
+      
+      var groupButton1 = document.getElementById("groupButton1");
+      if (groupButton1) {
+        groupButton1.addEventListener("click", function (e) {
+          window.location.href = "./update-mrp.html";
+        });
+      }
+      
+      var groupButton = document.getElementById("groupButton");
+      if (groupButton) {
+        groupButton.addEventListener("click", function (e) {
+          window.location.href = "./update-mrp.html";
+        });
+      }
+      
+      var groupButton2 = document.getElementById("groupButton2");
+      if (groupButton2) {
+        groupButton2.addEventListener("click", function (e) {
+          window.location.href = "./update-stock.html";
+        });
+      }
+      
+      var rectangleButton = document.getElementById("rectangleButton");
+      if (rectangleButton) {
+        rectangleButton.addEventListener("click", function (e) {
+          window.location.href = "./check-product.html";
+        });
+      }
+      
+      var groupButton3 = document.getElementById("groupButton3");
+      if (groupButton3) {
+        groupButton3.addEventListener("click", function (e) {
+          window.location.href = "./add-product.html";
+        });
+      }
+      
+      var groupButton4 = document.getElementById("groupButton4");
+      if (groupButton4) {
+        groupButton4.addEventListener("click", function (e) {
+          window.location.href = "./update-product.html";
+        });
+      }
+      
+      var groupButton5 = document.getElementById("groupButton5");
+      if (groupButton5) {
+        groupButton5.addEventListener("click", function (e) {
+          window.location.href = "./check-stock.html";
+        });
+      }
+      </script>
+  </body>
+</html>

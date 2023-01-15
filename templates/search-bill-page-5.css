@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.logo-icon14 {
+  position: absolute;
+  top: 19.5px;
+  left: 105.5px;
+  width: 105px;
+  height: 105px;
+}
+.discover12,
+.home13,
+.invendor14,
+.profile13 {
+  position: absolute;
+  top: 44px;
+  left: 234px;
+  text-decoration: underline;
+  color: var(--color-gray-800);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 194px;
+  height: 71px;
+}
+.discover12,
+.home13,
+.profile13 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 38px;
+  left: 720px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-ibm-plex-sans-hebrew);
+  color: var(--color-black);
+  width: 216px;
+  height: 67px;
+}
+.discover12,
+.profile13 {
+  left: 962px;
+}
+.profile13 {
+  left: 1178px;
+}
+.search-bill-page-5-child {
+  border: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: 300px;
+  left: 101px;
+  width: 1098px;
+  height: 74px;
+}
+.enter-item-name,
+.results {
+  position: absolute;
+  top: 205px;
+  left: 105px;
+  display: flex;
+  align-items: center;
+  width: 1094px;
+  height: 76px;
+}
+.results {
+  top: 415px;
+  left: 101px;
+}
+.enter-child6,
+.search-bill-page-5-item {
+  position: absolute;
+  top: 532px;
+  left: 114px;
+  background-color: var(--color-white);
+  width: 1106px;
+  height: 334px;
+}
+.enter-child6 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-400);
+  width: 203px;
+  height: 74px;
+}
+.enter11 {
+  position: absolute;
+  top: 6px;
+  left: 2px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 201px;
+  height: 63px;
+}
+.enter10 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 300px;
+  left: 1017px;
+  width: 203px;
+  height: 74px;
+}
+.search-bill-page-5 {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  background-image: url(./public/print-invoice-page@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
