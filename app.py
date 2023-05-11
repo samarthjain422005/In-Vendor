@@ -76,15 +76,14 @@ db.create_all()
  
 #page routing
 @app.route("/")
-def landing_page():
-  return "send"
-  return render_template('landing_page.html')
+def index():
+  return render_template('index.html')
 
 @app.route("/logout")
 @login_required
 def logout():
   logout_user() 
-  return redirect(url_for("landing_page"))
+  return redirect(url_for("index"))
 
 @app.route("/home")
 @login_required
@@ -137,6 +136,7 @@ def login():
        if user.password==password:
          flash("Logged in Successfully!!",category="success")
          login_user(user,remember=True)
+         
          return redirect(url_for('home'))
        else:
          flash("Incorrect password , try again",category="error")
