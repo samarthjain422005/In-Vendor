@@ -252,11 +252,55 @@ def new_bill():
 @login_required
 def search_bill():   #to be completed
    return render_template('search bill.html',user=current_user) #to be completed
+
+
 @app.route("/billing/print")
 @login_required
-def print_bill():
-   return render_template('print bill.html',user=current_user)
- #to be completedto be completed
+def print_bill(bill_no):
+    import csv
+
+    rec1=Billing.query.filter_by(bill_no=bill_no).all()
+    rec=rec1[0][3]
+    data=[["","","","","Store Name","","",""],["","","","","Invoice","","",""],["","Address Line 1","","","","","","Date",*rec[0]],["","Address Line 2","","","","","","Invoice #",bill_no],["","Phone:","Phone Number","","","",], []]
+    filename = str(bill_no)+".csv"
+    with open(filename, 'w', newline="") as csvfile:
+        csvwriter=csv.writer(csvfile) 
+        csvwriter.writerows(data)
+    record1=Billing.query.filter_by(s_no=s_no).all()
+    record=record1[0][2]
+    for i in record:
+        for j in i:
+            rec=Billing.query.filter_by(s_no=j).all()
+            for r in rec:
+                c_name=r[4]
+                mob=r[5]
+                data=[["","Bill To: ","","","",],["","Customer Name:",c_name,"","",""],["","Mobile No :",mob,"","",],[],["","S. No.","Product Name","Product Code","Price per Unit","SGST","CGST","Quantity","Total"]]
+    with open(filename,'a',newline="") as csvfile:
+        csvwriter=csv.writer(csvfile)
+        csvwriter.writerows(data)
+        t=0
+        for i in record:
+            for j in i:
+                rec=Billing.query.filter_by(s_no=j).all()
+                for r in rec:
+                    s_no=i[::-2]
+                    p_name=r[6]
+                    p_code=r[7]
+                    ppu=r[8]
+                    qty=r[9]
+                    sgst=r[10]
+                    cgst=r[11]
+                    total=r[12]
+                    t=t+total
+                    data=["",s_no,p_name,p_code,ppu,sgst,cgst,qty,total]
+    with open(filename,'a',newline="") as csvfile:
+        csvwriter=csv.writer(csvfile)
+        csvwriter.writerows(data)
+        data=[[],["","Grand Total: ","","","","","","",t,"","","",],[],["","","Thank you for shopping!","","",]]
+    with open(filename,'a',newline="") as csvfile:
+        csvwriter=csv.writer(csvfile)
+        csvwriter.writerows(data)
+  return render_template('print bill.html',user=current_user)
 @app.route("/products")
 @login_required
 def products():
