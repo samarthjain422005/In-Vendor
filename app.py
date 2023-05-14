@@ -254,11 +254,12 @@ def search_bill():   #to be completed
    return render_template('search bill.html',user=current_user) #to be completed
 
 
-@app.route("/billing/print")
+@app.route("/billing/print" ,methods=['GET','POST'])
 @login_required
-def print_bill(bill_no):
+def print_bill():
     import csv
-
+    if request.method == 'POST':
+        bill_no = request.form['enter-bill-number']
     rec1=Billing.query.filter_by(bill_no=bill_no).all()
     rec=rec1[0][3]
     data=[["","","","","Store Name","","",""],["","","","","Invoice","","",""],["","Address Line 1","","","","","","Date",*rec[0]],["","Address Line 2","","","","","","Invoice #",bill_no],["","Phone:","Phone Number","","","",], []]
